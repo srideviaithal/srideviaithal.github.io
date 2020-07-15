@@ -1,1 +1,221 @@
-# srideviaithal.github.io
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sections</title>
+<style>
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: grey;
+	font-family: Helvetica;
+}
+h1{
+	color: yellow;
+	margin-bottom: 15px;
+	text-align: center;
+}
+p{
+	position:relative;
+	color:white;
+	width: 90%;
+	height:150px;
+}
+#text{
+	top:60px;
+}
+.row{
+	width:100%;
+}
+#p1{
+	position:relative;
+	background-color: yellow;
+	color:orange;
+	width: 100px;
+	height: 30px;
+	float : right;
+	padding: 5px;
+	border:1px solid black;
+	text-align: center;
+
+}
+div#container{
+	background-color: blue;
+	position:relative;
+	border: 1px solid black;
+}
+#p2{
+	position:relative;
+	background-color: #5F9EA0;
+	color:maroon;
+	border:1px solid black;
+	width: 100px;
+	height: 30px;
+	float : right;
+	padding: 5px;
+	text-align: center;
+}
+#p3{
+	position:relative;
+	background-color: #FF7F50;
+	color:white;
+	border:1px solid black;
+	width: 100px;
+	height: 30px;
+	float :right;
+	padding: 5px;
+	text-align: center;
+}
+@media (min-width: 992px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		float: left;
+		border:5px solid grey;
+	}
+	.col-md-1{
+		width:8.33%;
+	}
+	.col-md-2{
+		width:16.66%;
+	}
+	.col-md-3{
+		width:25%;
+	}
+	.col-md-4{
+		width:33%;
+	}
+	.col-md-5{
+		width:41.66%;
+	}
+	.col-md-6{
+		width:50%;
+	}
+	.col-md-7{
+		width:58.33%;
+	}
+	.col-md-8{
+		width:66.66%;
+	}
+	.col-md-9{
+		width:74.99%;
+	}
+	.col-md-10{
+		width:83.33%;
+	}
+	.col-md-11{
+		width:91.66%;
+	}
+	.col-md-12{
+		width:100%;
+	}
+}
+@media (min-width:768px) and (max-width: 991px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+		float:left;
+		border:5px solid grey;
+	}
+	.col-sm-1{
+		width:8.33%;
+	}
+	.col-sm-2{
+		width:16.66%;
+	}
+	.col-sm-3{
+		width:25%;
+	}
+	.col-sm-4{
+		width:33%;
+	}
+	.col-sm-5{
+		width:41.66%;
+	}
+	.col-sm-6{
+		width:50%;
+	}
+	.col-sm-7{
+		width:58.33%;
+	}
+	.col-sm-8{
+		width:66.66%;
+	}
+	.col-sm-9{
+		width:74.99%;
+	}
+	.col-sm-10{
+		width:83.33%;
+	}
+	.col-sm-11{
+		width:91.66%;
+	}
+	.col-sm-12{
+		width:100%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+		float:left;
+		border:5px solid grey;
+}
+	.col-xs-1{
+		width:8.33%;
+	}
+	.col-xs-2{
+		width:16.66%;
+	}
+	.col-xs-3{
+		width:25%;
+	}
+	.col-xs-4{
+		width:33%;
+	}
+	.col-xs-5{
+		width:41.66%;
+	}
+	.col-xs-6{
+		width:50%;
+	}
+	.col-xs-7{
+		width:58.33%;
+	}
+	.col-xs-8{
+		width:66.66%;
+	}
+	.col-xs-9{
+		width:74.99%;
+	}
+	.col-xs-10{
+		width:83.33%;
+	}
+	.col-xs-11{
+		width:91.66%;
+	}
+	.col-xs-12{
+		width:100%;
+	}
+}
+
+</style>
+</head>
+
+<body>
+<h1>Section Model</h1>
+<div class="row">
+	<div class="col-md-4 col-sm-6">
+		<div id="container">
+	<p id="p1">Bread</p>
+	<p id="text">Loren ipsum dolor sit amet, consecteur adipisicing elit.</p></div>
+	</div>
+	<div class="col-md-4 col-sm-6">
+		<div id="container">
+	<p id="p2">Butter</p>
+	<p id="text">Loren ipsum dolor sit amet, consecteur adipisicing elit.</p></div>
+	</div>
+	<div class="col-md-4 col-sm-6">
+		<div id="container">
+	<p id="p3">Jam</p>
+	<p id="text">Loren ipsum dolor sit amet, consecteur adipisicing elit.</p></div>
+	</div>
+</div>
+</body>
+</html>
